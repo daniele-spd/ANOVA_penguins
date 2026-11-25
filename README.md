@@ -84,3 +84,19 @@ There are no raw data, since the data are imported with the library "seaborn".
 Jupyter Notebooks "One-way ANOVA (species).ipynb" and "Two-way ANOVA (species and sex).ipynb" can run the tests again.
 
 An overview of the project and the corresponding results is in "Summary of results.pdf", and in the Word version "Summary of results.docx".
+
+## Requirements
+Python 3.12.12
+
+## Installation
+* Clone the repository: 
+    * git clone https://github.com/daniele-spd/ANOVA_penguins.git
+* Navigate to the project directory: 
+    * cd REPOSITORY
+* (Optional but recommended) Create a virtual environment: 
+    * python -m venv venv
+* Activate the environment: 
+    * Windows: venv\Scripts\activate 
+    * Linux / macOS: source venv/bin/activate
+* Install the dependencies: 
+    * pip install -r requirements.txt
